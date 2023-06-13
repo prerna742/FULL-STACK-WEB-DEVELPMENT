@@ -1,0 +1,41 @@
+/* Universal selector */
+*{
+    margin:5%;
+}
+
+
+/* type selector */
+body {
+    color:cadetblue;
+    background-color:darkmagenta;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* class selector */
+.first {
+    color:black;
+}
+.large{
+    font-size: 30px;
+}
+
+
+/* ID selector */
+#eklist{
+    background-color: brown;
+}
+
+/* Attribute selector */
+a[href="Upflairs.com"]{
+color : red;
+text-decoration: none;
+}
+input[type="text"]{
+    background-color: blue;
+    color: white;
+}
+/* pseudo selector */
+.first:hover{
+    color: white;
+}
