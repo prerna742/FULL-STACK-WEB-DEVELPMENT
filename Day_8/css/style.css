@@ -116,3 +116,75 @@ border-radius: 100%;
 .showCVbutton{
     background-color: linear-gradient( white,rgb(215,215,215));
 }
+/* services section */
+.services{
+    margin: 80px ;
+}
+
+.servicestext{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textsubheading{
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+}
+
+
+.textheading{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.servicecards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicecard{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    /* margin: 15px; */
+    padding: 40px;
+}
+
+.servicecard:hover{
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+
+.servicetitle{
+    font-weight:bold ;
+    font-size: 1.5rem ;
+}
+
+.serviceicondiv{
+    background-color: rgb(80 ,80,118);
+    display: inline-block;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.serviceicon{
+    background-color: 227,218,218;
+    font-size: 3rem;
+    color: white;
+}
+.servicetitle{
+    font-size: 1.75rem;
+   margin: 20px 0px;
+}
+.servicefeature{
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+.servicefeatureicon{
+    font-size: 1rem;
+}
+
+    
+
