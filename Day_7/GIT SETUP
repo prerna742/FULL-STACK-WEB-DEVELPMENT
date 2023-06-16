@@ -22,3 +22,5 @@ git remote add origin then"URL"
 git add.
 git commit -m "daily comment"
 git push origin main
+
+
